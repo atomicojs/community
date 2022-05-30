@@ -1,7 +1,14 @@
 {
+    "type": "module",
     "name": "@atomico/my-package",
     "version": "0.0.0",
     "description": "my package...",
+    "scripts": {
+        "test": "vitest",
+        "coverage": "vitest run --coverage",
+        "exports": "exports src/*.ts --exports --types --main base",
+        "prepublishOnly": "npm run coverage && npm run exports"
+    },
     "author": {
         "name": "You",
         "email": "my@mail.com",
@@ -19,6 +26,8 @@
         "atomico": "latest"
     },
     "devDependencies": {
+        "c8": "latest",
+        "happy-dom": "latest",
         "typescript": "latest",
         "vite": "latest",
         "vitest": "latest",

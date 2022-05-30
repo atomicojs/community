@@ -1,4 +1,5 @@
 {
+    "type": "module",
     "name": "@atomico/community",
     "private": true,
     "workspaces": [
