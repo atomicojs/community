@@ -1,0 +1,31 @@
+{
+    "name": "@atomico/my-package",
+    "version": "0.0.0",
+    "description": "my package...",
+    "author": {
+        "name": "You",
+        "email": "my@mail.com",
+        "url": "https://github.com/you"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/atomicojs/community.git"
+    },
+    "bugs": {
+        "url": "https://github.com/atomicojs/community/issues"
+    },
+    "homepage": "https://atomico.gitbook.io/doc/atomico/community",
+    "dependencies": {
+        "atomico": "latest"
+    },
+    "devDependencies": {
+        "typescript": "latest",
+        "vite": "latest",
+        "vitest": "latest",
+        "@atomico/plugin-vite": "latest",
+        "@atomico/exports": "latest"
+    },
+    "peerDependencies": {
+        "atomico": "latest"
+    }
+}

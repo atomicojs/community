@@ -1,0 +1,11 @@
+{
+    "name": "@atomico/community",
+    "private": true,
+    "workspaces": [
+        "./packages/**"
+    ],
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": false
+    }
+}
